@@ -1,0 +1,286 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DCE05.Ejemplos.EstrellaUno.ReglasNegocio
+</name>
+</assembly>
+<members>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoProductos">
+ <summary>
+ Representa el catálogo de productos del sistema.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoProductos.ObtenerProductos">
+ <summary>
+ Obtiene la lista de productos del sistema.
+ </summary>
+ <returns>La lista de productos.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoProductos.ObtenerProducto(System.Int32)">
+ <summary>
+ Obtiene un producto en base a su código.
+ </summary>
+ <param name="Codigo">El código del producto.</param>
+ <returns>El producto encontrado.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas">
+ <summary>
+ Representa el catálogo de ventas del sistema.
+ Permite administrar la lógica de negocios asociada a las ventas.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.ObtenerVentas">
+ <summary>
+ Obtiene el listado de ventas registradas en el sistema.
+ </summary>
+ <returns>El listado de ventas registradas.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.ObtenerItemsVenta(DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta)">
+ <summary>
+ Obtiene los ítems de una venta.
+ </summary>
+ <param name="MiVenta">La venta cuyos ítems se van a obtener.</param>
+ <returns>Los ítems de la venta.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.ConfirmarVenta(DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta)">
+ <summary>
+ Confirma una venta registrando sus ítems en el sistema.
+ La venta debe poseer items.
+ </summary>
+ <param name="MiVenta">La venta a registrar.</param>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.IniciarVenta">
+ <summary>
+ Inicia una nueva venta en el sistema.
+ </summary>
+ <returns>La venta iniciada.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.CancelarVentasPendientes">
+ <summary>
+ Cancela las ventas pendientes (iniciadas pero que no poseen ítems).
+ </summary>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoVentas.CancelarVenta(DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta)">
+ <summary>
+ Cancela una venta.
+ </summary>
+ <param name="MiVenta">La venta a cancelar.</param>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoUsuarios">
+ <summary>
+ Representa el catálogo de productos del sistema.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoUsuarios.ObtenerUsuarios">
+ <summary>
+ Obtiene la lista de productos del sistema.
+ </summary>
+ <returns>La lista de productos.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.CatalogoUsuarios.ObtenerUsuario(System.Int32)">
+ <summary>
+ Obtiene un usuario segun su DNI
+ </summary>
+ <param name="Dni">El código del producto.</param>
+ <returns>El producto encontrado.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">Si ocurre un error de negocio.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Usuario">
+ <summary>
+ Representa un producto genérico.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Usuario.#ctor(System.Int32,System.String,System.String)">
+ <summary>
+ Construye una instancia del producto con sus datos completos.
+ </summary>
+ <param name="dni">El código del producto.</param>
+ <param name="nombre">La descripción del producto.</param>
+ <param name="apellido">El precio del producto.</param>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Usuario.Dni">
+ <summary>
+El ID
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Usuario.Nombre">
+ <summary>
+El nombre.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Usuario.Apellido">
+ <summary>
+El apellido.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta">
+ <summary>
+ Representa un ítem en una venta.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.#ctor(DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto,System.Int32)">
+ <summary>
+ Cosntruye una instancia del ítem con los datos básicos.
+ </summary>
+ <param name="Prod">El producto asociado.</param>
+ <param name="Cantidad">La cantidad de unidades del producto.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.#ctor(System.Int32,DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto,System.Int32)">
+ <summary>
+ Construye una inastancia del ítem completo.
+ </summary>
+ <param name="Codigo">El código del ítem</param>
+ <param name="Prod">El producto asociado.</param>
+ <param name="Cantidad">La cantidad de unidades del producto.</param>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.Codigo">
+ <summary>
+ El código del ítem.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.Producto">
+ <summary>
+ El producto del ítem.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.Cantidad">
+ <summary>
+ La cantidad de productos en el ítem.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta.CalcularTotal">
+ <summary>
+ Calcula el total del ítem de venta.
+ </summary>
+ <returns>El total del ítem.</returns>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto">
+ <summary>
+ Representa un producto genérico.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto.#ctor(System.Int32,System.String,System.Double)">
+ <summary>
+ Construye una instancia del producto con sus datos completos.
+ </summary>
+ <param name="codigo">El código del producto.</param>
+ <param name="descripcion">La descripción del producto.</param>
+ <param name="precio">El precio del producto.</param>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto.Precio">
+ <summary>
+ El precio del producto.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto.Codigo">
+ <summary>
+ El codigo del producto.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Producto.Descripcion">
+ <summary>
+ La descripcion del producto.
+ </summary>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException">
+ <summary>
+ Representa un error genérico producido en las reglas de negocio.
+ De esta clase deben heredar las clases que representen errores 
+ específicos de reglas de negocio.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException.#ctor(System.String,System.Exception)">
+ <summary>
+ Construye una instancia con un mensaje de error, 
+ invocando al constructor de la clase base.
+ </summary>
+ <param name="mensaje">El mensaje de error.</param>
+ <param name="original">El error original.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ReglasNegocioException.#ctor(System.String)">
+ <summary>
+ Construye una instancia con un mensaje de error, 
+ invocando al constructor de la clase base.
+ </summary>
+ <param name="mensaje">El mensaje de error.</param>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta">
+ <summary>
+ Representa la comercialización de un conjunto de productos (ítems de venta).
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.#ctor">
+ <summary>
+ Construye una instancia vacía de la venta.
+ </summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.Items">
+ <summary>
+ La lista de items de la venta.
+ </summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.Codigo">
+ <summary>
+ El código de la venta.
+ </summary>
+ <value>El nuevo código de la venta</value>
+ <returns>El código de la venta.</returns>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.Fecha">
+ <summary>
+ La fecha de la venta.
+ </summary>
+ <value>La nueva fecha de la venta.</value>
+ <returns>la fecha de la venta.</returns>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.Total">
+ <summary>
+ Calcula el total de la venta.
+ </summary>
+ <returns>El total de la venta.</returns>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Venta.AgregarItem(DCE05.Ejemplos.EstrellaUno.ReglasNegocio.ItemVenta)">
+ <summary>
+ Agrega un ítem a la venta.
+ </summary>
+ <param name="item">El ítem a agregar.</param>
+ <exception cref="T:System.ArgumentException">Si el parámetro es inválido.</exception>
+</member>
+</members>
+</doc>

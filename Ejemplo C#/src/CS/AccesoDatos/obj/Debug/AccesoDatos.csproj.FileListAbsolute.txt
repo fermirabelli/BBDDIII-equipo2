@@ -1,0 +1,5 @@
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb

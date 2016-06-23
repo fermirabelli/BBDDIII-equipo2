@@ -1,0 +1,248 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DCE05.Ejemplos.EstrellaUno.Cliente
+</name>
+</assembly>
+<members>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.ListaOpciones">
+ <summary>
+ Representa la lista de opciones de la aplicación.
+ </summary>
+</member>
+<member name="F:DCE05.Ejemplos.EstrellaUno.Cliente.ListaOpciones._Opciones">
+ <summary>
+ La lista de opciones disponibles.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.ListaOpciones.#cctor">
+ <summary>
+ Construye estáticamente la lista de opciones.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.ListaOpciones.ObtenerOpciones">
+ <summary>
+ Obtiene el listado de opciones disponibles.
+ </summary>
+ <returns>El listado de opciones.</returns>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.ListaOpciones.Obtener(System.Int32)">
+ <summary>
+ Permite obtener una opción según su código.
+ </summary>
+ <param name="codigo">El código de la opción</param>
+ <returns>La opción encontrada.</returns>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionInvalidaException">Si la opción no existe.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion">
+ <summary>
+ Representa una opción genérica.
+ Todas las opciones del sistema deben heredar de esta opción.
+ </summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Codigo">
+ <summary>
+ El código de la opción.
+ </summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Descripcion">
+ <summary>
+ La descripción de la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionAgregarItemVenta">
+ <summary>
+ Representa la opción de agregar un ítem de venta a una venta iniciada.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionAgregarItemVenta.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionAgregarItemVenta.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionCancelarVenta">
+ <summary>
+ Representa la opcion de cancelar la venta actual.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionCancelarVenta.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionCancelarVenta.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionConfirmarVenta">
+ <summary>
+ Representa la opción de finalizar una venta.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionConfirmarVenta.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionConfirmarVenta.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="Codigo">El código de la opción.</param>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionIniciarVenta">
+ <summary>
+ Representa la opción de iniciar una venta.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionIniciarVenta.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionIniciarVenta.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionInvalidaException">
+ <summary>
+ Representa un error que ocurre cuando se selecciona una opción inválida.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionInvalidaException.#ctor(System.String)">
+ <summary>
+ Construye una instancia en base a un mensaje de error.
+ </summary>
+ <param name="mensaje">El mensaje de error.</param>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarCarrito">
+ <summary>
+ Representa la opción de listar el carrito de compras.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarCarrito.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarCarrito.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+ <exception cref="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionInvalidaException">Si la opción no fue ejecutada exitosamente.</exception>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarProductos">
+ <summary>
+ Representa la opción de listar los productos disponibles.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarProductos.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarProductos.#ctor">
+ <summary>
+ Construye una instancia de la opción vacía.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarProductos.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarUsuarios.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="codigo">El código de la opción.</param>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarUsuarios.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionSalir.EjecutarAccion">
+ <summary>
+ Ejecuta la acción asociada a la opción.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionSalir.#ctor(System.Int32)">
+ <summary>
+ Construye una instancia de la opción con sus datos básicos.
+ </summary>
+ <param name="MiCodigo">El código de la opción.</param>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta">
+ <summary>
+ Representa la aplicación cliente.
+ </summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.VentaActual">
+ <summary>
+ La venta actual que se está llevando a cabo en el Punto de Venta.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.Iniciar">
+ <summary>
+ Controla el flujo de ejecución de la aplicación.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.Salir">
+ <summary>
+ Permite finalizar la aplicación.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.Main">
+ <summary>
+ El punto de acceso (Entry Point) a la aplicación.
+ Este método será invocado por el .NET Common Language Runtime.
+ </summary>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.MostrarMenu">
+ <summary>
+ Muestra el menú de opciones en pantalla.
+ </summary>
+ <returns>La opción de menú seleccionada por el usuario.</returns>
+</member>
+<member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.MostrarVentaActual">
+ <summary>
+ Muestra los datos de la venta actual.
+ </summary>
+</member>
+<member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

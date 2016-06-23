@@ -1,0 +1,7 @@
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\obj\Debug\ReglasNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.pdb

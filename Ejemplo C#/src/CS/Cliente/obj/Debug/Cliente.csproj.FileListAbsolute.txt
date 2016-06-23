@@ -1,0 +1,11 @@
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.Cliente.exe.config
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.Cliente.exe
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.Cliente.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.ADONET.Cliente
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\obj\Debug\DCE05.Ejemplos.EstrellaUno.Cliente.exe
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\Cliente\obj\Debug\DCE05.Ejemplos.EstrellaUno.Cliente.pdb

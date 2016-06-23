@@ -1,0 +1,9 @@
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.xml
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\AccesoDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.Resources.resources
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\AccesoDatos.vbproj.GenerateResource.Cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.xml
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb

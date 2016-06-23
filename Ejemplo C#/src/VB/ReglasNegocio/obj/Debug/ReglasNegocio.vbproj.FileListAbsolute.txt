@@ -1,0 +1,11 @@
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.xml
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.Resources.resources
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.dll
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.xml
+C:\Users\Julian Mendez\Documents\GitHub\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\VB\ReglasNegocio\obj\Debug\DCE05.Ejemplos.EstrellaUno.ReglasNegocio.pdb
